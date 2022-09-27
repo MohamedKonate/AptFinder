@@ -21,6 +21,6 @@ Vous télécharger le fichier ou cloner sur le disque dur. Ensuite, vous double 
  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/mohamedkonate/aptfinder">
  
 
-# Les Collaborateurs :
+# Les Collaborateurs du projet :
 
 [@Mohamed](https://github.com/MohamedKonate)
