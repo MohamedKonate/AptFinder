@@ -12,5 +12,5 @@ Vous télécharger le fichier ou cloner sur le disque dur. Ensuite, vous double 
 
 <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/MOhamedkonate/AptFinder">
  <img alt="GitHub" src="https://img.shields.io/github/license/mohamedkonate/aptfinder">
- <img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/swellaby.rust-pack">
+ <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/mohamedkonate/aptfinder">
  
