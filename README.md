@@ -2,6 +2,8 @@
 <img alt="GitHub" src="https://img.shields.io/github/license/mohamedkonate/aptfinder">
 <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/mohamedkonate/aptfinder?color=orange">
 
+[![Build Status](https://app.travis-ci.com/MohamedKonate/AptFinder.svg?branch=main)](https://app.travis-ci.com/MohamedKonate/AptFinder)
+
 # AptFinder :
 
 This application allows you to see, in the chosen area, if desired, the price per m2, the number of vacant homes, the density of the population in a certain zone, the schools or shops nearby, but also the average duration of sales or the average number of announcement for exemples.
