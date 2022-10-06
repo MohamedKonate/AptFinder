@@ -18,7 +18,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First you need to clone the code source into your local machine :
+git clone git@github.com: mohamedkonate/aptfinder.git
+
+Then, run the development server:
 
 ```bash
 npm run dev
