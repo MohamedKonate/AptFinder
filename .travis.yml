@@ -1,8 +1,11 @@
 language: node_js
 node_js: 
   - 16.17.1
+npm --version:
+  - 8.15.0
 before_install:
-  - npm install -g codecov
+  - npm install codecov --save-dev
+  - npm ci
 script:
   - npm run test
   - codecov
