@@ -1,11 +1,16 @@
 language: node_js
 node_js: 
   - 16.17.1
+  cache: npm
 npm --version:
   - 8.15.0
 before_install:
   - npm install codecov --save-dev
+  install:
   - npm ci
-script:
-  - npm run test
-  - codecov
+deploy:
+provider: pages
+skip-cleanup: true
+github-token: $GITHUB_TOKEN
+on:
+branch: gh-pages
