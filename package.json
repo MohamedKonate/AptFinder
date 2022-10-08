@@ -13,19 +13,38 @@
     "@chakra-ui/react": "^2.3.5",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
+    "@testing-library/react": "^13.4.0",
     "axios": "^0.27.2",
+    "express": "^4.18.1",
     "framer-motion": "^7.5.2",
+    "jest-dom": "^4.0.0",
     "millify": "^5.0.1",
+    "mysql": "^2.18.1",
     "next": "12.3.1",
     "nprogress": "^0.2.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-horizontal-scrolling-menu": "^3.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-scripts": "^5.0.1",
+    "react-test-render": "^1.1.2"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
     "codecov": "^3.8.3",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1"
-  }
+  },
+  "description": "<img alt=\"GitHub release (latest by date)\" src=\"https://img.shields.io/github/v/release/mohamedkonate/aptfinder\"> <img alt=\"GitHub\" src=\"https://img.shields.io/github/license/mohamedkonate/aptfinder\"> <img alt=\"GitHub tag (latest by date)\" src=\"https://img.shields.io/github/v/tag/mohamedkonate/aptfinder?color=orange\">",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamedKonate/AptFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedKonate/AptFinder/issues"
+  },
+  "homepage": "https://github.com/MohamedKonate/AptFinder#readme"
 }

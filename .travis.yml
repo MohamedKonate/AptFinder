@@ -1,16 +1,14 @@
 language: node_js
+os: linux
+dist: xenial
 node_js: 
   - 16.17.1
   cache: npm
 npm --version:
   - 8.15.0
 before_install:
-  - npm install codecov --save-dev
+  - npm install codecov --save-dev --force
   install:
-  - npm ci
-deploy:
-provider: pages
-skip-cleanup: true
-github-token: $GITHUB_TOKEN
-on:
-branch: main
+  - npm ci --force
+script: npm run test,
+        codecov
