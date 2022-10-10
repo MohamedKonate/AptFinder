@@ -1,14 +1,13 @@
 language: node_js
 os: linux
-dist: xenial
 node_js: 
   - 16.17.1
 npm --version:
   - 8.15.0
 before_install:
-- git clone https://github.com/MohamedKonate/AptFinder/tree/main/src
   - npm install codecov --save-dev --force
   install:
   - npm ci --force
-script: npm run test
+script: 
+  - npm run test
         
