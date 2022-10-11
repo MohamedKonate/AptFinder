@@ -2,7 +2,7 @@
 <img alt="GitHub" src="https://img.shields.io/github/license/mohamedkonate/aptfinder">
 <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/mohamedkonate/aptfinder?color=orange">
 <img alt="Codecov" src="https://img.shields.io/codecov/c/github/mohamedkonate/aptfinder">
-
+<a href="https://www.codacy.com/gh/MohamedKonate/AptFinder/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MohamedKonate/AptFinder&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/9aacfeb3c8384df096e21a6baf5b2518"/></a>
 
 [![Build Status](https://app.travis-ci.com/MohamedKonate/AptFinder.svg?branch=main)](https://app.travis-ci.com/MohamedKonate/AptFinder)
 
