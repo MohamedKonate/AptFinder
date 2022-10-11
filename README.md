@@ -3,6 +3,7 @@
 <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/mohamedkonate/aptfinder?color=orange">
 <img alt="Codecov" src="https://img.shields.io/codecov/c/github/mohamedkonate/aptfinder">
 
+
 [![Build Status](https://app.travis-ci.com/MohamedKonate/AptFinder.svg?branch=main)](https://app.travis-ci.com/MohamedKonate/AptFinder)
 
 # AptFinder :
@@ -63,12 +64,17 @@ After cloning the repo on the Desktop, you will need to download and install the
 Once the installation is done, go to the main folder, and run the following commands on the Terminal:
 ```
 npm install
-npm start
+npm run dev
+
+and then open with http://localhost:3000/
 ```
 go to the backend folder, and run the following commands on the Terminal:
 ```
 npm install
 npm start
+
+and then open with http://localhost:3001/
+
 ```
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
