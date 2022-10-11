@@ -61,15 +61,15 @@ After cloning the repo on the Desktop, you will need to download and install the
 
 
 Once the installation is done, go to the main folder, and run the following commands on the Terminal:
-
+```
 npm install
 npm start
-
+```
 go to the backend folder, and run the following commands on the Terminal:
-
+```
 npm install
 npm start
-
+```
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 # The collabs of the projet :
