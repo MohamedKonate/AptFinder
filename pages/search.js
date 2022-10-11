@@ -3,15 +3,27 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 import { Flex, Box, Text, Icon } from '@chakra-ui/react';
 import { BsFilter } from 'react-icons/bs';
-
+import React from 'react';
 import SearchFilters from '../components/SearchFilters';
 
 const Search = () => {
     const [searchFilters, setSearchFilters] = useState(false);
     const router = useRouter();
 
-    return (
 
+const [data, setData] = React.useState(null);
+
+    React.useEffect(() => {
+      fetch("/api")
+        .then((res) => res.json())
+        .then((data) => setData(data.message));
+    }, []);
+  
+console.log(data)
+
+
+    return (
+     
         <Box>
             <Flex
             cursor= 'pointer'
@@ -32,7 +44,12 @@ const Search = () => {
             </Flex>
             {searchFilters && <SearchFilters />}
 
+
+            <div>
+        <p>{!data ? "Loading..." : data}</p>
+      </div>
         </Box>
+        
     )
     }
 

@@ -9,6 +9,7 @@
     "lint": "next lint",
     "test": "react-scripts test"
   },
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@chakra-ui/react": "^2.3.5",
     "@emotion/react": "^11.10.4",

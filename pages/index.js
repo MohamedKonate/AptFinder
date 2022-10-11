@@ -30,7 +30,7 @@ export default function Home({propertiesForSale, propertiesForRent}) {
         desc1="Explore Flats, Homes and Villas"
         desc2="and many more"
         buttonText="Explore Renting"
-        linkName="/search?purpose=for-rent"
+        linkName="http://localhost:3001/api"
         imageUrl="https://bayut-production.s3.eu-central-1.amazonaws.com/image/145426814/33973352624c48628e41f2ec460faba4"
         
         />
@@ -52,8 +52,8 @@ export default function Home({propertiesForSale, propertiesForRent}) {
     />
 
         <Flex flexWrap ="wrap">
-{propertiesForSale.map((property) => <Property property={property} key={property.id} />)}
-</Flex>
+         {propertiesForSale.map((property) => <Property property={property} key={property.id} />)}
+        </Flex>
 
     </Box>
   )
