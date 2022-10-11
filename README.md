@@ -49,9 +49,26 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy :
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+In order to launch the application, it is necessary to follow a few steps:
+
+First of all, you have to go to the Github repository which contains the application, you can find it at the following address: https://github.com/MohamedKonate/AptFinder
+
+Once on the Github retrieve the Git link, open a terminal make a git clone https://github.com/MohamedKonate/AptFinder on your Desktop.
+
+After cloning the repo on the Desktop, you will need to download and install the nodeJS package, an important element to launch the application. You can directly download it on the site according to your Operating System: [JDK 17](https://nodejs.org/fr/download/current/)
+
+
+Once the installation is done, go to the main folder, and run the following commands on the Terminal:
+
+npm install
+npm start
+
+go to the backend folder, and run the following commands on the Terminal:
+
+npm install
+npm start
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
