@@ -57,7 +57,7 @@ First of all, you have to go to the Github repository which contains the applica
 
 Once on the Github retrieve the Git link, open a terminal make a git clone https://github.com/MohamedKonate/AptFinder on your Desktop.
 
-After cloning the repo on the Desktop, you will need to download and install the nodeJS package, an important element to launch the application. You can directly download it on the site according to your Operating System: [JDK 17](https://nodejs.org/fr/download/current/)
+After cloning the repo on the Desktop, you will need to download and install the nodeJS package, an important element to launch the application. You can directly download it on the site according to your Operating System: [NodeJs](https://nodejs.org/fr/download/current/)
 
 
 Once the installation is done, go to the main folder, and run the following commands on the Terminal:
