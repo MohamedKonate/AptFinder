@@ -1,0 +1,9 @@
+= Version V0.2
+Dans cette version, j’ai eu a ameliorer deux partie, soit deux features
+
+== Grandes features : ==
+Voir l'ensemble des Logements disponible avec l’api existant 
+
+== Petites features : ==
+    
+Amélioration de l'interface utilisateur en organisant les maison Ajout de l'Api via un lien et non pas une base de donnés
