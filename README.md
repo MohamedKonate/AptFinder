@@ -3,6 +3,7 @@
 <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/mohamedkonate/aptfinder?color=orange">
 <img alt="Codecov" src="https://img.shields.io/codecov/c/github/mohamedkonate/aptfinder">
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/520070292c1947958341c7e6da46529c)](https://app.codacy.com/gh/MohamedKonate/AptFinder?utm_source=github.com&utm_medium=referral&utm_content=MohamedKonate/AptFinder&utm_campaign=Badge_Grade_Settings)
 [![Build Status](https://app.travis-ci.com/MohamedKonate/AptFinder.svg?branch=main)](https://app.travis-ci.com/MohamedKonate/AptFinder)
 
 # AptFinder :
